@@ -18,8 +18,8 @@ class TimberRemoteLogging(
     companion object {
         private const val DEFAULT_LOG = "INFO"
         private const val SPLIT_CHARACTER = ","
-        private const val PACKAGE_ENABLE = "ai.wordbox.remotelogging.enable"
-        private const val LOG_TYPES = "ai.wordbox.remotelogging.logtypes"
+        private const val PACKAGE_ENABLE = "co.devhack.remotelogging.enable"
+        private const val LOG_TYPES = "co.devhack.remotelogging.logtypes"
     }
 
     private val timeFormat = SimpleDateFormat("dd-MM-yyyy hh:mm:ss.SSS a zzz", Locale.getDefault())
