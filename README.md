@@ -8,12 +8,6 @@ We need to log our app because we can debug errors or behaviors abnormal, thus i
 application. This library is a tree of Timber. We can register this tree so that the logs are
 recorded in Firestore. Thus, you should add the firebase credentials in your project.
 
-## Current Version
-
-```
-1.0.0
-```
-
 ## Installation
 
 You can [download](https://github.com/jggomez/DroidRemoteLogging) and install `Droid Remote Logging`
