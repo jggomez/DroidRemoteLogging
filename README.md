@@ -36,14 +36,14 @@ is false) :
 
 ```xml
 
-<meta-data android:name="ai.wordbox.remotelogging.enable" android:value="true" />
+<meta-data android:name="co.devhack.remotelogging.enable" android:value="true" />
 ```
 
 And the types of logs. You can put various types of logs for default is INFO
 
 ```xml
 
-<meta-data android:name="ai.wordbox.remotelogging.logtypes"
+<meta-data android:name="co.devhack.remotelogging.logtypes"
     android:value="DEBUG, INFO, DEBUG, VERBOSE, ERROR" />
 ```
 
