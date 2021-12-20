@@ -36,14 +36,14 @@ is false) :
 
 ```xml
 
-<meta-data android:name="ai.wordbox.remotelogging.enable" android:value="true" />
+<meta-data android:name="co.devhack.remotelogging.enable" android:value="true" />
 ```
 
 And the types of logs. You can put various types of logs for default is INFO
 
 ```xml
 
-<meta-data android:name="ai.wordbox.remotelogging.logtypes"
+<meta-data android:name="co.devhack.remotelogging.logtypes"
     android:value="DEBUG, INFO, DEBUG, VERBOSE, ERROR" />
 ```
 
@@ -72,6 +72,12 @@ Timber.i("log info")
 Timber.e(Exception("error"))
 Timber.log(Log.VERBOSE, "log verbose")
 ```
+
+You can see the data in firestore like this:
+
+<img width="809" alt="Screen Shot 2021-12-20 at 12 29 06" src="https://user-images.githubusercontent.com/661231/146807919-754e6521-e630-4924-be98-a27edf3eb46e.png">
+
+
 
 Made with ❤ by  [jggomez](https://devhack.co).
 
